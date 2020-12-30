@@ -38,10 +38,9 @@ h2 {
   white-space: nowrap;
 }
 
-ul, li, .menuitem {
+.menuitem {
   padding: 0;
   margin: 0;
-  list-style-type: none;
   text-decoration: none;
 }
 
