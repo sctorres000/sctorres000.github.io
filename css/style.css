@@ -102,11 +102,12 @@ h2 {
   flex-direction: row;
   margin: 20px;
   align-items: center;
-  justify-content: space-around;
+  padding-bottom: 50px;
 }
 
 
 .subtitle {
+  position: relative;
   width: 49px;
   height: 400px;
 }
