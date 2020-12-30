@@ -100,11 +100,9 @@ h2 {
   width: calc(100vw - 243px);
   height: auto;
   flex-direction: row;
-  margin: 20px;
+  margin: 20px 20px 80px 20px;
   align-items: center;
-  padding-bottom: 50px;
 }
-
 
 .subtitle {
   position: relative;
@@ -123,6 +121,10 @@ img {
   margin-right: 15px;
   overflow: hidden;
   position: relative;
+}
+
+.content-select:hover .subtitle>h2 {
+  color: #FF492A;
 }
 
 #thesis-show {
