@@ -49,7 +49,9 @@ h2 {
 }
 
 .contents {
+  overflow: hidden;
   display: flex;
+  height: 100vh;
 }
 
 .nested {
@@ -85,7 +87,8 @@ h2 {
   width: calc(100vw - 223px);
   display: flex;
   flex-flow: row wrap;
-  overflow: visible;
+  flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
+  overflow-y: auto;
 }
 
 .work-boxes>* {
