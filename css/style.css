@@ -42,10 +42,39 @@ h2 {
   width: auto;
 }
 
-.menuitem {
+.menu {
+  height: calc(100vh - 353px);
+  padding-bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+a.menuitem {
   padding: 0;
   margin: 0;
+  width: auto;
+
+  font-family: 'Manrope', serif;
+  font-weight: bold;
+  font-size: 55px;
+  text-transform: capitalize;
+  color: #3D3D3D;
+
   text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 5px;
+  transition: background-size .3s, color .3s;
+}
+
+a.menuitem:hover, a.menuitem:focus {
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  color: #FF492A;
 }
 
 .contents {
@@ -63,24 +92,6 @@ h2 {
 #title {
   margin: 0;
   padding-bottom: 50px;
-}
-
-.menu {
-  height: calc(100vh - 353px);
-  padding-bottom: 100px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.menuitem {
-  font-family: 'Manrope', serif;
-  font-weight: bold;
-  font-size: 55px;
-  text-transform: capitalize;
-  color: #3D3D3D;
-  background-color: transparent;
 }
 
 .work-boxes {
