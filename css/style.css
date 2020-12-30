@@ -29,3 +29,8 @@ h1 {
   flex-direction: column;
   margin: 0px 20px;
 }
+
+#title {
+  margin: 0;
+  padding-bottom: 50px;
+}
