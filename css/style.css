@@ -36,6 +36,10 @@ h2 {
   color: #3D3D3D;
   background-color: transparent;
   white-space: nowrap;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  width: auto;
 }
 
 .menuitem {
