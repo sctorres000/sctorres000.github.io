@@ -18,4 +18,13 @@ $headers .= 'Reply-To: '.$field_email."\r\n";
 
 $mail_status = mail($mail_to, $subject, $body_message, $headers);
 
+if (mail($recipient, $subject, $message, $headers))
+{
+    echo "Message accepted";
+}
+else
+{
+    echo "Error: Message not accepted";
+}
+
 ?>
