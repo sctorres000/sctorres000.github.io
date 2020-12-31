@@ -23,5 +23,38 @@
         <a class="menuitem" href="contact.html">Contact</a>
       </div>
     </div>
+    <form action="./contact/contact.php" method="POST">
+    <div class="contact">
+      <div class="row">
+        <h4 style="text-align:center">I'd love to hear from you!</h4>
+      </div>
+      <div class="input-container">
+        <div class="one-per-row">
+          <div class="inputWide">
+            <input type="text" name="name" placeholder="Name" required/>
+          </div>
+        </div>
+        <div class="two-per-row">
+          <div class="inputSmall">
+            <input type="email" placeholder="Email" name="email" required/>
+          </div>
+        </div>
+        <div class="two-per-row">
+          <div class="inputSmall" style="float:right;">
+            <input type="tel" name="phone" placeholder="Phone (optional)"/>
+          </div>
+        </div>
+        <div class="one-per-row">
+          <div class="inputWide">
+            <textarea placeholder="Message" required name="message"></textarea>
+          </div>
+        </div>
+        <div class="one-per-row" style="width:710px; text-align:center;">
+          <button name="button" type="submit" class="submit-btn">Send</button>
+        </div>
+    </div>
+  </div>
+</form>
+</div>
 </body>
 </html>
