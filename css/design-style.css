@@ -1,7 +1,42 @@
-a>img {
-  filter: grayscale(100%);
+
+
+.content-select { width: auto; height: auto;}
+
+.frame { width: 400px; height: 400px;}
+
+.frame>img {
+  width: 100%;
+  min-height: 400px;
+  height: auto;
 }
 
-a:hover>img {
+.subtitle {
+  font-family: 'Raleway', serif;
+  font-weight: bold;
+  font-size: 32px;
+  writing-mode: vertical-rl;
+  background-color: transparent;
+  white-space: nowrap;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+
+.content-select .frame>a>img, .content-select .subtitle {
+  filter: grayscale(100%);
+  color: #3D3D3D;
+}
+
+.content-select:hover .frame>a>img, .content-select:hover .subtitle {
   filter: none;
+  color: #FF492A;
+}
+
+.content-select #RISD {  border: 5px solid #3D3D3D; }
+
+.content-select:hover #RISD {
+  border: none;
+  background-color: #3D3D3D;
+  padding: 5px;
 }

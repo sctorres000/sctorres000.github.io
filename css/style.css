@@ -22,7 +22,7 @@ h1 {
   background-color: transparent;
   font-family: 'Raleway', serif;
   font-weight: 900;
-  font-size: 86px;
+  font-size: 55px;
   text-transform: uppercase;
   color: #FF492A;
 }
@@ -30,8 +30,8 @@ h1 {
 h2 {
   font-family: 'Raleway', serif;
   font-weight: bold;
-  font-size: 49px;
-  transform: rotate(90deg);
+  font-size: 32px;
+  writing-mode: vertical-rl;
   color: #3D3D3D;
   background-color: transparent;
   white-space: nowrap;
@@ -58,7 +58,7 @@ a.menuitem {
 
   font-family: 'Manrope', serif;
   font-weight: bold;
-  font-size: 55px;
+  font-size: 32px;
   text-transform: capitalize;
   color: #3D3D3D;
 
@@ -99,6 +99,8 @@ a.menuitem:hover, a.menuitem:focus {
   flex-flow: row wrap;
   flex-grow: 1;  /*ensures that the container will take up the full height of the parent container*/
   overflow-y: auto;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .work-boxes>* {
@@ -107,7 +109,7 @@ a.menuitem:hover, a.menuitem:focus {
 
 .content-select {
   display: flex;
-  width: calc(100vw - 243px);
+  width: auto;
   height: auto;
   flex-direction: row;
   margin: 20px 20px 80px 20px;
